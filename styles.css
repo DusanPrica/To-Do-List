@@ -12,7 +12,7 @@
     padding: 10px;
 }
 
-.todoApp{                                   /*app*/                             
+.todoApp{                                                                
     width: 100%;
     max-width: 540px;
     background: #fff;
@@ -21,19 +21,19 @@
     border-radius: 10px;
 }
 
-.todoApp h2 {                               /*heading*/
+.todoApp h2 {                               
     color: #085f3b;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.todoApp h2 img {                           /*icon*/
+.todoApp h2 img {                           
     width: 30px;
     margin-left: 10px;
 }
 
-.row{                                       /*row with imput and button*/
+.row{                                       
     display: flex;      
     align-items: center;
     justify-content: space-between;
@@ -43,7 +43,7 @@
     margin-bottom: 20px;
 }
 
-input {                                     /*Add text*/
+input {                                     
     flex: 1;
     border: none;
     outline: none;
@@ -52,7 +52,7 @@ input {                                     /*Add text*/
     font-weight: 14px;
 }
 
-button {                                /*+ button*/
+button {                                
     border: none;
     outline: none;
     padding: 16px 30px;
@@ -65,7 +65,7 @@ button {                                /*+ button*/
 }
 
 ul li {   
-    position: relative;                     /*task list*/
+    position: relative;                     
     list-style: none;
     font-size: 18px;
     padding: 12px 10px 12px 40px;
@@ -73,7 +73,7 @@ ul li {
     user-select: none;
 }
 
-ul li::before{                              /*pseudo element, unchecked box*/
+ul li::before{                              
     position: absolute;
     content: '';
     height: 25px;
@@ -112,7 +112,7 @@ ul li span:hover{
     background: #edeef0;
 }
 
-ul li.checked {         /**/
+ul li.checked {         
     text-decoration: line-through;
     color: gray;
     opacity: 0.7;

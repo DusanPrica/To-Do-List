@@ -32,10 +32,10 @@ function addTask() {
     inputBox.value = "";
 }
 
-    addButton.addEventListener("click", addTask);          // when button is clicked
+    addButton.addEventListener("click", addTask);          
 
-    inputBox.addEventListener("keydown", function(e) {     // when enter key was clicked 
+    inputBox.addEventListener("keydown", function(e) {     
         if (e.key === "Enter") {
             addTask();
         }
-    }); /* */
+    }); 
