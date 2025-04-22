@@ -112,7 +112,7 @@ ul li span:hover{
     background: #edeef0;
 }
 
-ul li.checked {
+ul li.checked {         /**/
     text-decoration: line-through;
     color: gray;
     opacity: 0.7;
